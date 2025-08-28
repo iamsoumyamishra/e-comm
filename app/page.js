@@ -1,5 +1,5 @@
-import Navbar from '@/container/Navbar'
-import Products from '@/container/Products'
+import Navbar from '@/components/Navbar'
+import Products from '@/components/Products'
 import React from 'react'
 
 const page = () => {

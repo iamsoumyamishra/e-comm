@@ -23,7 +23,8 @@ const Navbar = () => {
                 />
               </div>
               <span className='text-xl font-bold bg-gradient-to-r from-blue-600 to-blue-400 bg-clip-text text-transparent transition-all duration-300 group-hover:from-blue-500 group-hover:to-purple-500'>
-                {process.env.NEXT_PUBLIC_APP_TITLE || 'Title'}
+                {/* {process.env.NEXT_PUBLIC_APP_TITLE || 'Title'} */}
+                {process.env.NEXT_PUBLIC_APP_TITLE || 'Tvastra'}
               </span>
             </Link>
           </div>
