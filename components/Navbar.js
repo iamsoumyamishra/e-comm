@@ -15,11 +15,11 @@ const Navbar = () => {
             <Link href={'/'} className='flex items-center space-x-2 group'>
               <div className='w-8 h-8 relative transition-transform duration-300 group-hover:scale-110'>
                 <Image 
-                  src='/globe.svg' 
+                  src='/logo.png' 
                   alt='Logo' 
                   width={32} 
                   height={32} 
-                  className='text-blue-600 transition-transform duration-500 group-hover:rotate-12'
+                  className='text-blue-600 rounded-full transition-transform duration-500 group-hover:rotate-12'
                 />
               </div>
               <span className='text-xl font-bold bg-gradient-to-r from-blue-600 to-blue-400 bg-clip-text text-transparent transition-all duration-300 group-hover:from-blue-500 group-hover:to-purple-500'>
